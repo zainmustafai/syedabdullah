@@ -4,7 +4,7 @@ import TechGrid from "./TechGrid";
 
 const MyTechStack = () => {
   return (
-    <section className="text-center py-8 sm:py-12">
+    <section className="text-center py-8 sm:py-12" id="techstack">
       <div className="container mx-auto">
         <SectionHeading text={"MY TECH STACK"} colorCode="45474A" />
         <p className="my-4 text-lg sm:text-xl">

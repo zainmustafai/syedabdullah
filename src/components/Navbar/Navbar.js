@@ -59,7 +59,6 @@ const Navbar = ({ homeRef, contactRef, portfolioRef, aboutRef }) => {
           >
             <li onClick={openWhatsapp} className='hover:text-yellow-600' >CONTACT</li>
           </motion.div>
-
         </ul>
         <button className=' text-white text-2xl mx-12 lg:hidden cursor-pointer' onClick={handleClick}>
           <GiHamburgerMenu />

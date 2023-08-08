@@ -35,7 +35,7 @@ const About = ({ refVar }) => {
     },
   ];
   return (
-    <div className="bg-[#252934]">
+    <div className="bg-[#252934]" id="about" >
       <section
         ref={refVar}
         className="about-container w-full text-center container mx-auto"
