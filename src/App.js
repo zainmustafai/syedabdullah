@@ -4,8 +4,14 @@ import HomePage from "./Pages/HomePage/HomePage";
 import CustomCursor from "./components/CustomCursor/CustomCursor";
 function App() {
   return (
-    <div className="text-center scroll-m-0">
-      <CustomCursor/>
+    <div
+      className="text-center scroll-m-0"
+      onContextMenu={(e) => {
+        e.preventDefault();
+        return false;
+      }}
+    >
+      <CustomCursor />
       <Routes>
         <Route path="/" exact element={<HomePage />} />
       </Routes>
