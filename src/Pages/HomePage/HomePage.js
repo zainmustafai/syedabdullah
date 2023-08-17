@@ -61,7 +61,7 @@ const HomePage = () => {
   const homeRef = useRef(null);
 
   return (
-    <div className="w-full min-w-min overflow-hidden">
+    <div className="w-full min-w-min overflow-x-hidden">
       <motion.div
         style={navbarStyle}
         variants={navAnimation}
