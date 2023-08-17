@@ -6,7 +6,7 @@ const SmallNavBar = ({ menuArray }) => {
       initial={{ opacity: 0, scale: 0.5 }}
       animate={{ opacity: 1, scale: 1 }}
       transition={{ duration: 0.5 }}
-      className="w-screen max-h-max bg-[#1B242F] shadow-lg rounded-md md:hidden"
+      className="w-screen max-h-max bg-[#1B242F] shadow-lg rounded-md md:hidden relative z-10"
     >
       <ul className="p-[4%]">
         {menuArray.map((item) => {

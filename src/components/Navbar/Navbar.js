@@ -29,7 +29,7 @@ const Navbar = ({ homeRef, contactRef, portfolioRef, aboutRef }) => {
   ];
   return (
     <div>
-      <motion.div className="nav-container w-full py-3  md:pl-8 lg:pl-11 xl:pl-14 flex items-center justify-between shadow-lg">
+      <motion.div className="relative z-10 nav-container w-full py-3  md:pl-8 lg:pl-11 xl:pl-14 flex items-center justify-between shadow-lg">
         <ul className=" menu text-xl text-white font-medium hidden md:flex  sm:gap-6 md:gap-8 lg:gap-10 ">
           {menuItems.map((item) => {
             return (

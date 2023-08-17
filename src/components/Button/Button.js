@@ -9,7 +9,7 @@ const Button = ({text,clickEvent}) => {
     whileTap={{ scale: 0.9 }}
     >
         <button 
-        className='btn flex gap-2 items-center'
+        className='btn flex gap-2 items-center relative z-[1234]'
         onClick={clickEvent}
         >
             <span>{text}</span>

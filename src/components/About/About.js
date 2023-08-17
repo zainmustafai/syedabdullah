@@ -2,10 +2,10 @@ import Card from "./Card";
 import polgon from "./polygon.svg";
 import SkillsSection from "./SkillsSection";
 import SectionHeading from "../SectionHeading/SectionHeading";
-import { IoIosSpeedometer } from "react-icons/io";
-import { MdDevices } from "react-icons/md";
 import { FaRocket } from "react-icons/fa";
 import { AiFillBulb } from "react-icons/ai";
+import { FaPalette } from "react-icons/fa";
+import { BsBriefcaseFill } from "react-icons/bs";
 
 const About = ({ refVar }) => {
   const features = [
@@ -13,7 +13,7 @@ const About = ({ refVar }) => {
       title: "Creative",
       paragraph:
         "Fast Inspired by the boundless nature of creativity, I embrace the art of design, breaking rules, taking risks, and letting my imagination soar.",
-      icon: <IoIosSpeedometer />,
+      icon: <FaPalette />,
     },
     {
       title: "Innovative",
@@ -25,7 +25,7 @@ const About = ({ refVar }) => {
       title: "Professional",
       paragraph:
         "Embracing professionalism as my guiding light, I strive to bring unwavering dedication, a strong work ethic, and a commitment to excellence to every endeavor.",
-      icon: <MdDevices />,
+      icon: <BsBriefcaseFill />,
     },
     {
       title: "Dynamic",
@@ -35,7 +35,7 @@ const About = ({ refVar }) => {
     },
   ];
   return (
-    <div className="bg-[#252934]" id="about" >
+    <div className="bg-[#252934] relative z-0" id="about">
       <section
         ref={refVar}
         className="about-container w-full text-center container mx-auto"

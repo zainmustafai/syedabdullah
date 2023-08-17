@@ -1,6 +1,7 @@
 import React from "react";
 import "./Hero.css";
 import Button from "../Button/Button";
+import ParticlesComponent from "../PartclesComponent/ParticlesComponent";
 
 const Hero = ({ portfolioRef, homeRef }) => {
   const arrowBtnClickHandler = () => {
@@ -15,6 +16,7 @@ const Hero = ({ portfolioRef, homeRef }) => {
       className="hero-container  flex flex-col justify-center items-center text-center bubbles "
       id="hero"
     >
+      <ParticlesComponent />
       <div className="flex flex-col items-center justify-center gap-4 p-4">
         <h1 className="text-white text-6xl">
           Hello, I'm{" "}

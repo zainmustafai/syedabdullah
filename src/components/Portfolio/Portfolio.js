@@ -8,7 +8,7 @@ const Portfolio = ({ refVar }) => {
   return (
     <section
       id='portfolio'
-      className='bg-[#F5F5F5] w-full  px-4 sm:px-8 lg:px-12 xl:px-16'
+      className='bg-[#F5F5F5] w-full  px-4 sm:px-8 lg:px-12 xl:px-16 z-0 relative'
       data-aos="fade-up"
       data-aos-once='true'
       ref={refVar}
