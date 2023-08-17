@@ -3,4 +3,5 @@ git commit -m 'Animation'
 git branch -M main
 git push -u origin main
 
+npm run deploy
 //   "homepage": "https://zainmustafai.github.io/syedabdullah",
