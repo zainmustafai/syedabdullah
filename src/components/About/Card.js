@@ -14,7 +14,7 @@ const Card = ({title,paragraph,imgSrc,icon}) => {
         <h2 className='font-bold text-white text-2xl'>
             {title}
         </h2>
-        <p className='w-full text-white font-light text-sm md:text-lg'>
+        <p className='w-full text-white font-light text-sm md:text-lg '>
             {paragraph}
         </p>
     </div>
