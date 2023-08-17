@@ -6,6 +6,9 @@ module.exports = {
       animation: {
         fadeIn: "fadeIn 0.3s ease-in-out", // Define the fadeIn animation
       },
+      colors:{
+        "primary":"#1DC2C9",
+      },
       keyframes: {
         fadeIn: {
           "0%": { opacity: "0" },

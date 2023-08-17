@@ -2,6 +2,7 @@ import React from "react";
 import "./Hero.css";
 import Button from "../Button/Button";
 import ParticlesComponent from "../PartclesComponent/ParticlesComponent";
+import Typewriter from "typewriter-effect";
 
 const Hero = ({ portfolioRef, homeRef }) => {
   const arrowBtnClickHandler = () => {
@@ -26,7 +27,23 @@ const Hero = ({ portfolioRef, homeRef }) => {
           .
         </h1>
         <h1 className="text-white text-5xl">
-          I'm a Graphic Designer/3D Designer{" "}
+          I'm a{" "}
+          <span className="inline-block text-primary">
+            {" "}
+            <Typewriter
+              options={{
+                className: "text-primary font-medium",
+                cursor: "|",
+                deleteSpeed: 20,
+                delay:10,
+                strings: ["Graphic Designer", "3D Designer"],
+                autoStart: true,
+                loop: true,
+                stringSplitter: true,
+                cursorClassName: "text-primary font-medium",
+              }}
+            />
+          </span>
         </h1>
         <Button text={"View My Work"} clickEvent={arrowBtnClickHandler} />
       </div>
