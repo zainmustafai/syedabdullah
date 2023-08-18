@@ -26,8 +26,9 @@ const Hero = ({ portfolioRef, homeRef }) => {
           </span>
           .
         </h1>
-        <h1 className="text-white text-5xl">
+        <h1 className="text-white text-3xl md:text-5xl">
           I'm a{" "}
+          <br className="sm:hidden" />
           <span className="inline-block text-primary">
             {" "}
             <Typewriter

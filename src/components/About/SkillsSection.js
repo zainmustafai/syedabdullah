@@ -26,13 +26,11 @@ const SkillsSection = () => {
           Who's this guy?
         </h1>
         <p className="text-white text-sm md:text-md lg:text-lg font-light">
-          I'm Syed Abdullah, a versatile and passionate designer specializing
-          in both graphic and 3D design, and I have an insatiable thirst for
+          I'm Syed Abdullah, a versatile and passionate designer specializing in
+          both graphic and 3D design, and I have an insatiable thirst for
           bringing imagination to life.
         </p>
-        <a href="/" className="text-slate-400">
-          Let's make something special.
-        </a>
+        <p className="text-slate-400">Let's make something special.</p>
       </div>
       {/* Skillset Bars */}
       <div
@@ -52,7 +50,6 @@ const SkillsSection = () => {
 };
 
 export default SkillsSection;
-
 
 // import React from "react";
 // import Bar from "./Bar";
